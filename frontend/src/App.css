@@ -4,11 +4,12 @@
   --bg-color: #242424;
   --font-color: #f0f0f0;
 
-  --primary-color: #fdb750;
-  --primary-color-darker: #ecac4c;
+  --primary-color: #ff9341;
+  --primary-color-darker: #e38135;
 
-  --secondary-color: #fd7f20;
-  --tertiary-color: #fc2e20;
+  --secondary-color: #fc2e20;
+
+  --gradient-text: linear-gradient(90deg, #ff9341 0%, #9984f0 100%);
 }
 
 * {
