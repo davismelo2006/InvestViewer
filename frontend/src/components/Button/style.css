@@ -5,6 +5,7 @@ button {
   font-weight: 500;
   border-radius: 2.5px;
   transition: all 0.25s ease;
+  padding: 5px 10px;
 }
 
 button:hover {
@@ -12,6 +13,10 @@ button:hover {
 }
 
 .btn-big {
-  padding: 5px 10px;
   font-size: 1rem;
+}
+
+.btn-fullWidth {
+  width: 100%;
+  font-size: 1.075rem;
 }

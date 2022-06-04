@@ -3,7 +3,7 @@ header {
   justify-content: center;
 }
 
-.container {
+.header_container {
   display: flex;
   justify-content: space-between;
   padding: 20px;

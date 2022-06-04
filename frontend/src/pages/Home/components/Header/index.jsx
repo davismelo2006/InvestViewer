@@ -1,6 +1,7 @@
 import React, { useState } from "react";
-import "./style.css";
+import { Link } from "react-router-dom";
 import Button from "../../../../components/Button/";
+import "./style.css";
 
 export default function Header() {
   const [isMenuOpened, setMenu] = useState(false);
@@ -11,7 +12,7 @@ export default function Header() {
 
   return (
     <header>
-      <div className="container">
+      <div className="header_container">
         <span className="header_title">InvestViewer</span>
 
         <div className="mobile_menu">
@@ -37,8 +38,13 @@ export default function Header() {
         </div>
 
         <div className="header_btn-container">
-          <Button text={"Login"} type={"big"} />
-          <Button text={"Get Started"} type={"big"} />
+          <Link to={"/login"}>
+            <Button text={"Login"} type={"big"} />
+          </Link>
+
+          <Link to={""}>
+            <Button text={"Get Started"} type={"big"} />
+          </Link>
         </div>
       </div>
     </header>

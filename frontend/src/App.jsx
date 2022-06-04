@@ -1,10 +1,6 @@
 import "./App.css";
-import Home from "./pages/Home";
+import RoutesApp from "./routes";
 
 export default function App() {
-  return (
-    <div className="App">
-      <Home />
-    </div>
-  );
+  return <RoutesApp />;
 }
