@@ -4,12 +4,17 @@ import Input from "../../components/Input";
 import Button from "../../components/Button";
 import "./style.css";
 
-export default function Login() {
+export default function Register() {
   return (
     <div className="form_container">
-      <h1>Login </h1>
+      <h1>Register</h1>
 
       <form action="" method="post">
+        <div className="inputText_container">
+          <label htmlFor="name">Name</label>
+          <Input name={"name"} placeholder={"name"} type={"text"} />
+        </div>
+
         <div className="inputText_container">
           <label htmlFor="email">Email</label>
           <Input
@@ -24,13 +29,11 @@ export default function Login() {
           <Input name={"password"} placeholder={"password"} type={"password"} />
         </div>
 
-        <Link to={"/underconstruction"}>forgot password?</Link>
-
-        <Button text={"Login"} type={"fullWidth"} />
+        <Button text={"Register"} type={"fullWidth"} />
 
         <div className="create_account-link">
-          not registered?&nbsp;
-          <Link to={"/register"}>create account</Link>
+          already have an account?&nbsp;
+          <Link to={"/login"}>Login</Link>
         </div>
       </form>
     </div>

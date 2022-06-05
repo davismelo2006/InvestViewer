@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import Button from "../../../../components/Button/";
 import "./style.css";
 
 export default function Header() {
@@ -32,19 +31,15 @@ export default function Header() {
             className="mobile_menu-options"
             style={{ display: isMenuOpened === true ? "flex" : "none" }}
           >
-            <Button text={"Login"} type={"big"} />
-            <Button text={"Get Started"} type={"big"} />
+            <Link to={"/login"}>Login</Link>
+            <Link to={"/register"}>Get Started</Link>
           </div>
         </div>
 
         <div className="header_btn-container">
-          <Link to={"/login"}>
-            <Button text={"Login"} type={"big"} />
-          </Link>
+          <Link to={"/login"}>Login</Link>
 
-          <Link to={""}>
-            <Button text={"Get Started"} type={"big"} />
-          </Link>
+          <Link to={"/register"}>Get Started</Link>
         </div>
       </div>
     </header>

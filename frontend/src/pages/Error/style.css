@@ -2,3 +2,7 @@
   margin-top: 20vh;
   text-align: center;
 }
+
+.error_container button {
+  margin-top: 10px;
+}

@@ -20,6 +20,24 @@ header {
   gap: 10px;
 }
 
+/* a */
+
+header a {
+  background-color: var(--primary-color);
+  color: #212121;
+  cursor: pointer;
+  border: 0;
+  font-weight: 500;
+  border-radius: 2.5px;
+  transition: all 0.25s ease;
+  padding: 7.5px 15px;
+  font-size: 1rem;
+}
+
+header a:hover {
+  background-color: var(--primary-color-darker);
+}
+
 /* mobile menu */
 
 .mobile_menu {
