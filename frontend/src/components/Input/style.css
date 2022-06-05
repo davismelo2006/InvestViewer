@@ -5,3 +5,7 @@ input {
   font-size: 0.9rem;
   background: #5e5d5d4b;
 }
+
+input.error {
+  border-color: var(--error-color);
+}

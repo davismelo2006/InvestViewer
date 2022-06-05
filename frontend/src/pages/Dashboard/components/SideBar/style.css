@@ -1,0 +1,20 @@
+.sideBar_dashboard {
+  display: grid;
+  background: #c24620;
+  padding: 10px;
+  height: 100vh;
+  width: max-content;
+  border-radius: 15px;
+}
+
+.sideBar_dashboard > a {
+  margin: auto;
+  text-shadow: 0px 0px 5px #252525d5;
+  font-size: 0.95rem;
+}
+
+.sideBar_dashboard > a {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}

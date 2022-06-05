@@ -8,6 +8,7 @@
   --primary-color-darker: #e38135;
 
   --secondary-color: #fc2e20;
+  --error-color: #ee2c2c;
 
   --gradient-text: linear-gradient(90deg, #ff9341 0%, #9984f0 100%);
 }
